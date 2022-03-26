@@ -8,7 +8,7 @@ int main(void)
 {
 	int m, n;
 
-	for (M = 0; m < 100; m++)
+	for (m = 0; m < 100; m++)
 	{
 		for (n = 0; n < 100; n++)
 		{
@@ -16,7 +16,7 @@ int main(void)
 			{
 				putchar((m / 10) + 48);
 				putchar((m % 10) + 48);
-				piutchar(' ');
+				putchar(' ');
 				putchar((n / 10) + 48);
 				putchar((n % 10) + 48);
 				if (m != 98 || n != 99)
